@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Order Notification</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    background-color: #f4f4f7;
+  }
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .header {
+    background-color: #020617; /* Dark Slate */
+    color: #fde047; /* Yellow-300 */
+    padding: 24px;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .content {
+    padding: 32px;
+  }
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    margin: 0 0 24px;
+  }
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+  }
+  .details-table th, .details-table td {
+    padding: 12px 0;
+    text-align: left;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 15px;
+    vertical-align: top;
+  }
+  .details-table th {
+    width: 35%;
+    font-weight: 600;
+    color: #555555;
+  }
+  .details-table td {
+    color: #111111;
+  }
+  .message-label {
+      font-weight: 600;
+      color: #555555;
+      font-size: 16px;
+      margin-bottom: 12px;
+      display: block;
+  }
+  .footer {
+    background-color: #f8fafc; /* Slate-50 */
+    color: #64748b; /* Slate-500 */
+    padding: 24px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #e2e8f0; /* Slate-200 */
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>New Order from ElectroMart!</h1>
+    </div>
+    <div class="content">
+      <p>You have received a new order from your <strong>ElectroMart</strong> website.</p>
+      
+      <div class="message-label">Customer Details:</div>
+      <table class="details-table">
+        <tr>
+          <th>Full Name:</th>
+          <td>{{from_name}}</td>
+        </tr>
+        <tr>
+          <th>Email Address:</th>
+          <td>{{from_email}}</td>
+        </tr>
+        <tr>
+          <th>Phone Number:</th>
+          <td>{{phone_number}}</td>
+        </tr>
+        <tr>
+          <th>Shipping Address:</th>
+          <td>{{shipping_address}}</td>
+        </tr>
+      </table>
+
+      <div class="message-label">Order Details:</div>
+      {{{message}}}
+
+    </div>
+    <div class="footer">
+      <p>This is an automated notification from your ElectroMart website.</p>
+    </div>
+  </div>
+</body>
+</html>
+
