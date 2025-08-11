@@ -101,7 +101,7 @@ const ContactPage = () => {
       icon: <Phone className="w-6 h-6 sm:w-8 sm:h-8" />,
       title: "Call Us",
       details: "+1-212-123-4567",
-      description: "Monday to Saturday, 9am to 8pm PKT",
+      description: "Monday to Saturday, 9am to 8pm",
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"
     },
