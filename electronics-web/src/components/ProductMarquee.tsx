@@ -34,7 +34,7 @@ const products: Product[] = [
   {
     id: 5,
     name: 'Cosori Air Fryer Pro',
-    image: '/images/air_flyer.webp',
+    image: '/images/air_fyer.webp',
   },
   {
     id: 6,

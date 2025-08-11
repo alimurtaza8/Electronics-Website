@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
       id: 2,
       icon: <Truck className="w-8 h-8" />,
       title: "Same Day Delivery",
-      description: "Lightning-fast delivery within 24 hours across major cities in Pakistan",
+      description: "Delivery within 21 days",
       image: "/images/iphone_16.jpg",
       highlight: "Under 24 Hours"
     },

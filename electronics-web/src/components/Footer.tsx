@@ -79,7 +79,7 @@ const Footer = () => {
       title: "Company Info",
       icon: <Award className="w-5 h-5" />,
       links: [
-        { name: "About ElectroStore", href: "#about" },
+        { name: "About luxado", href: "#about" },
         { name: "Our Story", href: "#story" },
         { name: "Careers", href: "#careers", new: true },
         { name: "Press & Media", href: "#press" },
@@ -202,13 +202,13 @@ const Footer = () => {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-bold text-white">ElectroStore</h1>
+                  <h1 className="text-2xl font-bold text-white">luxado</h1>
                   <p className="text-gray-400">Premium Electronics</p>
                 </div>
               </div>
               
               <p className="text-gray-300 leading-relaxed text-lg">
-                Pakistan&apos;s most trusted electronics retailer, bringing you the latest technology 
+                Trusted electronics retailer, bringing you the latest technology 
                 with unmatched quality, service, and value since 2010.
               </p>
 
@@ -216,15 +216,15 @@ const Footer = () => {
               <div className="space-y-3">
                 <div className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors">
                   <Phone className="w-5 h-5" />
-                  <span>+92-21-1234567</span>
+                  <span>+1-212-123-4567</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors">
                   <Mail className="w-5 h-5" />
-                  <span>info@electrostore.pk</span>
+                  <span>info@luxado.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <MapPin className="w-5 h-5" />
-                  <span>Main Boulevard, Gulshan-e-Iqbal, Karachi</span>
+                  <span>123 Main Street, Downtown, Los Angeles, CA 90012</span>
                 </div>
               </div>
 
@@ -400,7 +400,7 @@ const Footer = () => {
               {/* Copyright */}
               <div className="text-center md:text-left">
                 <p className="text-gray-400">
-                  © 2025 ElectroStore Pakistan. All rights reserved.
+                  © 2025 luxado. All rights reserved.
                 </p>
                 {/* <p className="text-gray-500 text-sm mt-1">
                   Designed & Developed with <Heart className="w-4 h-4 text-red-500 inline mx-1 fill-current" /> in Karachi

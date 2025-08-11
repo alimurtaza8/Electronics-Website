@@ -91,8 +91,8 @@ const ContactPage = () => {
   const contactInfo = [
     {
       icon: <MapPin className="w-6 h-6 sm:w-8 sm:h-8" />,
-      title: "Visit Our Store",
-      details: "123 Tech Avenue, Karachi, Sindh, Pakistan",
+      title: "Address",
+      details: "123 Main Street, Downtown, Los Angeles, CA 90012",
       description: "Come see our latest electronics collection in person",
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"
@@ -100,7 +100,7 @@ const ContactPage = () => {
     {
       icon: <Phone className="w-6 h-6 sm:w-8 sm:h-8" />,
       title: "Call Us",
-      details: "+92 (21) 123-4567",
+      details: "+1-212-123-4567",
       description: "Monday to Saturday, 9am to 8pm PKT",
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"
@@ -108,7 +108,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="w-6 h-6 sm:w-8 sm:h-8" />,
       title: "Email Us",
-      details: "support@electrostore.com",
+      details: "support@luxado.com",
       description: "We'll respond within 24 business hours",
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"
@@ -139,16 +139,16 @@ const ContactPage = () => {
     },
     {
       question: "How long does shipping take?",
-      answer: "Most orders ship within 1-2 business days. Delivery times vary by location but typically take 2-5 business days in major cities."
+      answer: "Most orders ship within 21 business days. Delivery times vary by location but typically take 25 business days in major cities."
     },
     {
       question: "Do you offer technical support?",
       answer: "Yes, we provide free technical support for all products purchased from our store for the first year."
     },
-    {
-      question: "Do you have same-day delivery?",
-      answer: "Yes, we offer same-day delivery in Karachi, Lahore, and Islamabad for orders placed before 2 PM."
-    }
+    // {
+    //   question: "Do you have same-day delivery?",
+    //   answer: "Yes, we offer same-day delivery in Karachi, Lahore, and Islamabad for orders placed before 2 PM."
+    // }
   ];
 
 

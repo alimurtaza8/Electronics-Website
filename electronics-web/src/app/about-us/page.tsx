@@ -52,14 +52,14 @@ const AboutPage = () => {
       id: 2,
       icon: <Truck className="w-8 h-8 md:w-12 md:h-12" />,
       title: "Lightning Fast Delivery",
-      description: "Experience the fastest delivery service in Pakistan with same-day delivery in major cities. Our advanced logistics network ensures your products reach you safely and on time, every time.",
-      highlights: ["Same Day Delivery", "Express Shipping", "Secure Packaging", "Real-time Tracking"]
+      description: "Experience the best delivery service. Our advanced logistics network ensures your products reach you safely and on time, every time.",
+      highlights: ["Delivery", "Express Shipping", "Secure Packaging", "Real-time Tracking"]
     },
     {
       id: 3,
       icon: <Award className="w-8 h-8 md:w-12 md:h-12" />,
       title: "Award Winning Service",
-      description: "Recognized as Pakistan's #1 electronics retailer with multiple industry awards for customer satisfaction, innovation, and service excellence. Our commitment to excellence drives everything we do.",
+      description: "Recognized as one of America’s leading electronics retailers, with multiple national awards for customer satisfaction, innovation, and service excellence. Our dedication to quality drives everything we do.",
       highlights: ["Industry Recognition", "Customer Choice Award", "Excellence in Service", "Innovation Leader"]
     },
     {
@@ -198,7 +198,7 @@ const AboutPage = () => {
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-8">
               We started with a simple mission: to make cutting-edge technology accessible to everyone. 
-              Today, we are Pakistan&apos;s leading destination for the latest electronics, driven by a passion 
+              Today, we are the global leading destination for the latest electronics, driven by a passion 
               for innovation and an unwavering commitment to our customers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
@@ -302,7 +302,7 @@ const AboutPage = () => {
               <span className="block text-yellow-600">Partner Since 2010</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              We are Pakistan&apos;s premier electronics retailer, committed to bringing you the latest technology 
+              We are a premier electronics retailer, committed to bringing you the latest technology 
               with uncompromising quality, exceptional service, and competitive prices.
             </p>
           </div>
@@ -362,7 +362,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
-              Trusted by Thousands Across Pakistan
+              Trusted by Thousands
             </h3>
             <p className="text-lg sm:text-xl text-gray-300">
               Numbers that speak for our commitment to excellence
@@ -375,7 +375,7 @@ const AboutPage = () => {
                 {counters.customers.toLocaleString()}+
               </div>
               <p className="text-gray-300 font-semibold text-base sm:text-lg">Happy Customers</p>
-              <p className="text-gray-400 text-xs sm:text-sm mt-1">Across Pakistan</p>
+              {/* <p className="text-gray-400 text-xs sm:text-sm mt-1">Across Pakistan</p> */}
             </div>
             <div className="text-center group">
               <div className="text-3xl sm:text-4xl lg:text-6xl font-bold text-yellow-400 mb-2">

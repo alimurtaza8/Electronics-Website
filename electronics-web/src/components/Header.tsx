@@ -5,13 +5,11 @@ import React, { useState, useEffect } from 'react';
 import {
   Search,
   ShoppingCart,
-  User,
   Heart,
   Menu,
   X,
   Phone,
   Mail,
-  MapPin,
   Zap,
   Shield,
   Headphones
@@ -54,9 +52,9 @@ const Header = () => {
   ];
 
   const topBarInfo = [
-    { icon: <Phone className="w-4 h-4" />, text: '+92-21-1234567', href: 'tel:+922112345567' },
-    { icon: <Mail className="w-4 h-4" />, text: 'info@electrostore.pk', href: 'mailto:info@electrostore.pk' },
-    { icon: <MapPin className="w-4 h-4" />, text: 'Karachi, Pakistan', href: '#' }
+    { icon: <Phone className="w-4 h-4" />, text: '+1-212-123-4567', href: 'tel:+1-212-123-4567' },
+    { icon: <Mail className="w-4 h-4" />, text: 'info@luxado.com', href: 'mailto:info@luxado.com' },
+    // { icon: <MapPin className="w-4 h-4" />, text: 'Karachi, Pakistan', href: '#' }
   ];
 
   const toggleMenu = () => {
@@ -108,7 +106,7 @@ const Header = () => {
                 <Zap className="w-8 h-8 text-white" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-2xl font-bold text-gray-900">ElectroStore</h1>
+                <h1 className="text-2xl font-bold text-gray-900">luxado</h1>
                 <p className="text-sm text-gray-600">Premium Electronics</p>
               </div>
             </Link>
@@ -223,10 +221,12 @@ const Header = () => {
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center">
                   <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 p-2 rounded-lg mr-3">
+                    
                     <Zap className="w-6 h-6 text-white" />
+                    {/* <h1 className='text-xl font-bold text-black'>lux</h1> */}
                   </div>
                   <div>
-                    <h1 className="text-xl font-bold text-gray-900">ElectroStore</h1>
+                    <h1 className="text-xl font-bold text-gray-900">luxado</h1>
                   </div>
                 </div>
                 <button onClick={toggleMenu} className="p-2">
@@ -249,7 +249,7 @@ const Header = () => {
               </nav>
 
               {/* Mobile User Actions */}
-              <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
+              {/* <div className="mt-8 pt-8 border-t border-gray-200 space-y-4">
                 <button className="flex items-center space-x-3 w-full py-3 text-gray-700">
                   <User className="w-5 h-5" />
                   <span>My Account</span>
@@ -258,7 +258,7 @@ const Header = () => {
                   <Headphones className="w-5 h-5" />
                   <span>Customer Support</span>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
