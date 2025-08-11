@@ -79,7 +79,7 @@ const Footer = () => {
       title: "Company Info",
       icon: <Award className="w-5 h-5" />,
       links: [
-        { name: "About luxado", href: "#about" },
+        { name: "About Breaking Stores", href: "#about" },
         { name: "Our Story", href: "#story" },
         { name: "Careers", href: "#careers", new: true },
         { name: "Press & Media", href: "#press" },
@@ -202,7 +202,7 @@ const Footer = () => {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-bold text-white">luxado</h1>
+                  <h1 className="text-2xl font-bold text-white">Breaking Stores</h1>
                   <p className="text-gray-400">Premium Electronics</p>
                 </div>
               </div>
@@ -220,7 +220,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors">
                   <Mail className="w-5 h-5" />
-                  <span>info@luxado.com</span>
+                  <span>info@breakingstores.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300">
                   <MapPin className="w-5 h-5" />
@@ -400,7 +400,7 @@ const Footer = () => {
               {/* Copyright */}
               <div className="text-center md:text-left">
                 <p className="text-gray-400">
-                  © 2025 luxado. All rights reserved.
+                  © 2025 Breaking Stores. All rights reserved.
                 </p>
                 {/* <p className="text-gray-500 text-sm mt-1">
                   Designed & Developed with <Heart className="w-4 h-4 text-red-500 inline mx-1 fill-current" /> in Karachi

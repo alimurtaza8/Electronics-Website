@@ -108,7 +108,7 @@ const ContactPage = () => {
     {
       icon: <Mail className="w-6 h-6 sm:w-8 sm:h-8" />,
       title: "Email Us",
-      details: "support@luxado.com",
+      details: "support@breakingstores.com",
       description: "We'll respond within 24 business hours",
       color: "text-yellow-600",
       bgColor: "bg-yellow-100"

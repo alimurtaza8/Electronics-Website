@@ -16,9 +16,9 @@ import Footer from "@/components/Footer";
 import CartSidebar from "@/components/CartSidebar";
 
 export const metadata = {
-  title: "luxado - Your One-Stop Electronics Shop",
+  title: "Breaking Stores - Your One-Stop Electronics Shop",
   description:
-    "Discover the latest in electronics at luxado. From iPhones and MacBooks to home appliances, we have it all. Quality products, unbeatable prices, and exceptional service.",
+    "Discover the latest in electronics at Breaking Stores. From iPhones and MacBooks to home appliances, we have it all. Quality products, unbeatable prices, and exceptional service.",
 };
 
 export default function RootLayout({

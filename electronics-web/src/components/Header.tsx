@@ -53,7 +53,7 @@ const Header = () => {
 
   const topBarInfo = [
     { icon: <Phone className="w-4 h-4" />, text: '+1 (317) 778-0618', href: 'tel:+1 (317) 778-0618' },
-    { icon: <Mail className="w-4 h-4" />, text: 'info@luxado.com', href: 'mailto:info@luxado.com' },
+    { icon: <Mail className="w-4 h-4" />, text: 'info@breakingstores.com', href: 'mailto:info@breakingstores.com' },
     // { icon: <MapPin className="w-4 h-4" />, text: 'Karachi, Pakistan', href: '#' }
   ];
 
@@ -106,7 +106,7 @@ const Header = () => {
                 <Zap className="w-8 h-8 text-white" />
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-2xl font-bold text-gray-900">luxado</h1>
+                <h1 className="text-2xl font-bold text-gray-900">Breaking Stores</h1>
                 <p className="text-sm text-gray-600">Premium Electronics</p>
               </div>
             </Link>
@@ -226,7 +226,7 @@ const Header = () => {
                     {/* <h1 className='text-xl font-bold text-black'>lux</h1> */}
                   </div>
                   <div>
-                    <h1 className="text-xl font-bold text-gray-900">luxado</h1>
+                    <h1 className="text-xl font-bold text-gray-900">Breaking Stores</h1>
                   </div>
                 </div>
                 <button onClick={toggleMenu} className="p-2">

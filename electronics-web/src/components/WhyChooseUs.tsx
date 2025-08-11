@@ -292,7 +292,7 @@ const WhyChooseUs = () => {
                 Ready to Experience the Difference?
               </h3>
               <p className="text-gray-800 mb-6 text-lg">
-                Join our community of tech enthusiasts and discover why we&apos;re Pakistan&apos;s #1 electronics retailer
+                Join our community of tech enthusiasts and discover why we&apos;re #1 electronics retailer
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 flex items-center justify-center gap-2 group"
