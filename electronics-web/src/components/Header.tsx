@@ -52,7 +52,7 @@ const Header = () => {
   ];
 
   const topBarInfo = [
-    { icon: <Phone className="w-4 h-4" />, text: '+1-212-123-4567', href: 'tel:+1-212-123-4567' },
+    { icon: <Phone className="w-4 h-4" />, text: '+1 (317) 778-0618', href: 'tel:+1 (317) 778-0618' },
     { icon: <Mail className="w-4 h-4" />, text: 'info@luxado.com', href: 'mailto:info@luxado.com' },
     // { icon: <MapPin className="w-4 h-4" />, text: 'Karachi, Pakistan', href: '#' }
   ];
