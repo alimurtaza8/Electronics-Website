@@ -399,7 +399,7 @@ const Footer = () => {
               
               {/* Copyright */}
               <div className="text-center md:text-left">
-                <p className="text-gray-500">
+                <p className="text-gray-600">
                   © 2025 Breaking Stores. All rights reserved.
                 </p>
                 {/* <p className="text-gray-500 text-sm mt-1">
